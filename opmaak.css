@@ -1,4 +1,4 @@
-/*ul{
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ li a {
 li a:hover {
     background-color: cadetblue;
     color: linen;
-}*/
+}
 
 h1{
     color:darkcyan;
@@ -31,52 +31,3 @@ h1{
 
 }
 
-body{
-  font-family:Poppins;
-}
-.wrapper{
-  width: 1170px;
-  margin:auto;
-}
-.menu-area{
-  margin-top: 30px;
-}
-.menu-area ul{
-  background: #e87966;
-  list-style: none;
-  position: relative;
-  text-transform: uppercase;
-}
-.menu-area ul li{
-  display: inline-block;
-
-}
-.menu-area ul li a{
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  padding: 15px 35px;
-  font-weight: bold;
-}
-.menu-area ul li:hover{
-  background: #9a3527;
-}
-.menu-area ul li:hover > ul{
-  display: block;
-}
-.menu-area ul ul{
-  display: none;
-  position: absolute;
-  top: 100%;
-  background: #e87966;
-}
-.menu-area ul ul li{
-  position: relative;
-  display: block;
-  border-bottom: 1px solid #ffffff;
-}
-.menu-area ul ul ul{
-  position: absolute; 
-  left: 100%;
-  top: 0;
-}
