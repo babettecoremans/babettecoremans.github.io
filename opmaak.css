@@ -52,7 +52,7 @@ ul li a {
     color: #ffffff;
     border-top: 1px solid #ffffff;
     padding: 5px 15px 5px 15px;
-    background: #1e7c9a;
+    background-color:deeppink ;
     margin-left: 1px;
     white-space: nowrap;
 }
@@ -67,8 +67,8 @@ li:hover li {
     float: none;
     font-size: 11px;
 }
-li:hover a { background: #3b3b3b; }
+li:hover a { background-color:cadetblue; }
 li:hover li a:hover {
-    background: #1e7c9a;
+    background-color: deeppink;
 }
 
