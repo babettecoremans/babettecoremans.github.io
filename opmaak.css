@@ -20,7 +20,7 @@ li a {
 li a:hover {
     background-color: cadetblue;
     color: linen;
-}
+}**/
 
 h1{
     color:darkcyan;
@@ -29,7 +29,7 @@ h1{
     text-align: center;
     text-decoration: overline;
 
-}**/
+}
 
 ul {
     font-family: Arial, Verdana;
