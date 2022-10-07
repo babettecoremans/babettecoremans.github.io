@@ -57,7 +57,7 @@ ul li a {
     white-space: nowrap;
 }
 ul li a:hover {
-background: #3b3b3b;
+background-color: cadetblue;
 }
 li:hover ul {
     display: block;
