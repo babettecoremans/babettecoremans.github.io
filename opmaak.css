@@ -36,7 +36,7 @@ h1{
     position: absolute;
     top: 0;
     right: -150px;
-    width: 150px;
+    width:auto;
     list-style: none;
     padding: 0;
     margin: 0;
