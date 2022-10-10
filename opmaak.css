@@ -36,10 +36,10 @@ h1{
     position: absolute;
     top: 0;
     right: -150px;
-    width: 150px;
+    width: auto;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 10px;
     display: none;
 }
 
@@ -58,7 +58,7 @@ h1{
     width:auto;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 10px;
     display: none;
 }
 
@@ -74,15 +74,15 @@ h1{
 {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 .top-level-menu > li
 {
     position: relative;
     float: left;
-    height: 30px;
-    width: 150px;
+    height: 40px;
+    width:auto;
     background: deeppink;
 }
 .top-level-menu > li:hover { background: cadetblue; }
