@@ -36,7 +36,7 @@ h1{
     position: absolute;
     top: 0;
     right: -150px;
-    width:auto;;
+    width: 150px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -46,9 +46,9 @@ h1{
 .third-level-menu > li
 {
     height: 30px;
-    background: #999999;
+    background-color: deeppink;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
+.third-level-menu > li:hover { background-color: cadetblue; }
 
 .second-level-menu
 {
@@ -66,9 +66,9 @@ h1{
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background-color: deeppink;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background-color: cadetblue; }
 
 .top-level-menu
 {
@@ -83,9 +83,9 @@ h1{
     float: left;
     height: 30px;
     width: auto;
-    background: #999999;
+    background: deeppink;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { background: cadetblue; }
 
 .top-level-menu li:hover > ul
 {
