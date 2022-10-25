@@ -111,14 +111,33 @@ li a:hover {
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; }**/
-
+*
 {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 body
 {
     background-color: url(achtergrondfoto.jpg);
     background-size: cover;
     background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
 }
