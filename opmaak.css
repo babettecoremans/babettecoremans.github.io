@@ -119,7 +119,7 @@ li a:hover {
 }
 body
 {
-    background-color: url(achtergrondfoto.jpg);
+    background-image: url(achtergrondfoto.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
