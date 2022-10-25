@@ -111,16 +111,3 @@ h1{
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; }
-*
-{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-body
-{
-    background-image: url(achtergrondfoto.jpg);
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-}
