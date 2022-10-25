@@ -82,7 +82,7 @@ h1{
     position: relative;
     float: left;
     height: 40px;
-    width: 200px;;
+    width: 250px;;
     background: deeppink;
 }
 .top-level-menu > li:hover { background: cadetblue; }
