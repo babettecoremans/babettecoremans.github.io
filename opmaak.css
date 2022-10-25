@@ -156,7 +156,7 @@ body
 {
     display: none;
 }
-.menu-bar ul list-style: hover .sub-menu-1
+.menu-bar ul list-style:hover .sub-menu-1
 {
     display: block;
     position: absolute;
@@ -182,7 +182,7 @@ body
 {
     border-bottom: none;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li align-self: hover
+.menu-bar ul li:hover .sub-menu-1 ul li align-self:hover
 { 
     color: #b2ff00;
 }
