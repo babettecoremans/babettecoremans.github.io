@@ -33,7 +33,7 @@ h1{
 
 .third-level-menu
 {
-    position: absolute;
+    position: static;
     top: 0;
     right: -150px;
     width: 200px;
