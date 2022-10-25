@@ -41,6 +41,7 @@ h1{
     padding: 0;
     margin: 10px;
     display: none;
+    text-align: center;
 }
 
 .third-level-menu > li
@@ -60,6 +61,7 @@ h1{
     padding: 0;
     margin: 10px;
     display: none;
+    text-align: center;
 }
 
 .second-level-menu > li
@@ -82,7 +84,8 @@ h1{
     position: relative;
     float: left;
     height: 40px;
-    width: 250px;;
+    width: 250px;
+    text-align: center;
     background: deeppink;
 }
 .top-level-menu > li:hover { background: cadetblue; }
