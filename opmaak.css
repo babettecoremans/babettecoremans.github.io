@@ -129,6 +129,7 @@
 
   .text-besturingssysteem{
     column-count: 2;
+    column-gap: 100px;
   }
 
   .text-besturingssysteem h1{
