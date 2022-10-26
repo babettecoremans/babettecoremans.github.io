@@ -105,6 +105,6 @@
   
   .hero {
     height: calc(100vh - 80px);
-    background-image: url(./bg.jpg);
+    background-image: url(achtergrondfoto.jpg);
     background-position: center;
   }
