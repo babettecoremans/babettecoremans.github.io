@@ -107,4 +107,5 @@
     height: calc(100vh - 80px);
     background-image: url(achtergrondfoto.jpg);
     background-position: center;
+    background-size: cover;
   }
