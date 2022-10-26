@@ -13,7 +13,7 @@
   
   body {
     font-family: sans-serif;
-   
+    background-image: url(chip-achtergrond.png);
   }
   
   .logo {
@@ -101,13 +101,6 @@
     left: 150px;
     top: 0;
     background-color: var(--color-black);
-  }
-  
-  .hero {
-    height: calc(100vh - 80px);
-    background-image: url(chip-achtergrond.png);
-    background-position: center;
-    background-size: cover;
   }
 
   .text-box{
