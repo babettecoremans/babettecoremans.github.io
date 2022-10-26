@@ -115,9 +115,11 @@
     font-size: 30px;
     margin-bottom: 20px;
     color:floralwhite;
+    margin-left: 20px;
   } 
 
   .text-box p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: floralwhite;
+    margin-left: 20px;
   }
