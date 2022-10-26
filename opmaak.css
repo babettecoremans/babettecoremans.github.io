@@ -112,10 +112,10 @@
 
   .text-box{
     margin-top: 80px;
-    max-width: 600px;
+    max-width: 100px;
   }
 
-  h1{
+  .text-box h1{
     font-size: 45px;
     margin-bottom: 20px;
     color:floralwhite;
