@@ -106,9 +106,13 @@
   }
 
   .text-box h1{
+<<<<<<< HEAD
+    f
+=======
     margin-top: 50px;
     max-width: 300px;
     font-family: 'Times New Roman', Times, serif;
+>>>>>>> a8814c4de8340dad6cc0744c9fa131a0917e43e8
     font-size: 30px;
     margin-bottom: 20px;
     color:floralwhite;
