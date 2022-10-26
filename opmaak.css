@@ -1,109 +1,110 @@
-/**ul{
-    list-style-type: none;
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+  }
+  
+  * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color:deeppink;
-}
-
-li{
-    float: left;
-}
-
-li a {
-    display: block;
-    color: bisque;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: cadetblue;
-    color: linen;
-}**/
-
-h1{
-    color:darkcyan;
-    background-color: azure;
-    padding: 20px;
-    text-align: center;
-    text-decoration: overline;
-
-}
-
-.third-level-menu
-{
-    position: absolute;
-    top: 0;
-    right: -210px;
-    width: 200px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+   
+  }
+  
+  .logo {
+    color: var(--color-white);
+    font-size: 30px;
+  }
+  
+  .logo span {
+    color: var(--color-primary);
+  }
+  
+  .menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  
+    position: relative;
+  }
+  
+  .menu-bar ul {
     list-style: none;
-    padding: 0;
-    margin: 10px;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  
+  /* dropdown menu style */
+  .dropdown-menu {
     display: none;
-    text-align: center;
-}
-
-.third-level-menu > li
-{
-    height: 30px;
-    background-color: deeppink;
-}
-.third-level-menu > li:hover { background-color: cadetblue; }
-
-.second-level-menu
-{
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
     position: absolute;
-    top: 30px;
     left: 0;
-    width: 200px;;
-    list-style: none;
-    padding: 0;
-    margin: 10px;
-    display: none;
-    text-align: center;
-}
-
-.second-level-menu > li
-{
-    position: relative;
-    height: 30px;
-    background-color: deeppink;
-}
-.second-level-menu > li:hover { background-color: cadetblue; }
-
-.top-level-menu
-{
-    list-style: none;
-    padding: 0;
-    margin: 10px;
-}
-
-.top-level-menu > li
-{
-    position: relative;
-    float: left;
-    height: 40px;
-    width: 250px;
-    text-align: center;
-    background: deeppink;
-}
-.top-level-menu > li:hover { background: cadetblue; }
-
-.top-level-menu li:hover > ul
-{
-    display: inline;
-}
-
-.top-level-menu a 
-{
-    font: bold 14px Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 0 0 0 10px;
-
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
     display: block;
-    line-height: 30px;
-}
-.top-level-menu a:hover { color: #000000; }
-
+    margin: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+  
+  .hero {
+    height: calc(100vh - 80px);
+    background-image: url(./bg.jpg);
+    background-position: center;
+  }
