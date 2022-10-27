@@ -17,10 +17,17 @@
   
   body {
     font-family: Montserrat;
-    background-image: url(chip-achtergrond.png);
-    background-position: right;
-    background-size:cover;
   } 
+
+  .hero{
+    background-image: url(chip-achtergrond.png);
+    background-color: #b9d1ee;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
   .logo {
     color: var(--color-white);
