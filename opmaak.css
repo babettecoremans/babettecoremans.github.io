@@ -175,10 +175,9 @@
   }
 
   .img-home{
-    width: 100px;
-    top: 30px;
-    left: 150px;
-    position: absolute;
+    width: 150px;
+    margin-top: 350px;
+    margin-left: 350px;
   }
 
   .text-besturingssysteem{
