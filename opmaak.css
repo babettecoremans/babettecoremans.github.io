@@ -26,10 +26,10 @@
     padding-bottom: 100px;
 
   }
-  
+
   .hero{
     background-image: url(chip-achtergrond.png);
-    background-color: #1f589e75;
+    background-color: #6185b375;
     background-size: cover;
     background-blend-mode: lighten;
     color: white;
