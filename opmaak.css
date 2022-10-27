@@ -19,14 +19,6 @@
     font-family: Montserrat;
   } 
 
-  .hero-1{
-    background-image: url(bg-image.webp);
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding:0;
-  }
-
   .hero{
     background-image: url(bg-image.webp);
     background-color: #7b94b475;
