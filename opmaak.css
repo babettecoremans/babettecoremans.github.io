@@ -49,6 +49,16 @@
     padding-bottom: 250px;
   }
 
+  .bg-moederbord-en-bus{
+    background-image: url(bg-image.webp);
+    background-color: #7b94b475;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+
   .logo {
     color: var(--color-white);
     font-size: 30px;
@@ -203,6 +213,39 @@
   }
 
   .text-apps-en-api p{
+    margin-top: 15px;
+    max-width: 500px;
+    font-family: Montserrat;
+    color: floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-moederbord-en-bus{
+    column-count: 2;
+    column-gap: 10px;
+    margin-top: 50px;
+  }
+
+  .text-moederbord-en-bus h1{
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-moederbord-en-bus h2{
+    margin-top: 50px;
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-moederbord-en-bus p{
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
