@@ -19,7 +19,7 @@
     font-family: Montserrat;
   } 
 
-  .hero{
+  .hero1{
     background-image: url(bg-image.webp);
     background-color: #7b94b475;
     background-size: cover;
@@ -29,6 +29,26 @@
     padding-bottom: 250px;
   }
 
+  .hero2{
+    background-image: url(bg-image.webp);
+    background-color: #7b94b475;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+
+  .hero3{
+    background-image: url(bg-image.webp);
+    background-color: #7b94b475;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+  
   .logo {
     color: var(--color-white);
     font-size: 30px;
