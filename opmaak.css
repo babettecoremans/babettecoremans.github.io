@@ -175,10 +175,8 @@
   }
 
   .img-home{
-    border-radius: 10px;
-    width: 50px;
-    margin-top: 135px;
-    margin-left: 50%;
+    width: 25px;
+    position: center;
   }
 
   .text-besturingssysteem{
