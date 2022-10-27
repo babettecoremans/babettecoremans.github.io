@@ -178,6 +178,7 @@
     width: 100px;
     top: 30px;
     left: 150px;
+    position: absolute;
   }
 
   .text-besturingssysteem{
