@@ -176,7 +176,8 @@
 
   .img-home{
     width: 25px;
-    position: center;
+    top: 30px;
+    left: 150px;
   }
 
   .text-besturingssysteem{
