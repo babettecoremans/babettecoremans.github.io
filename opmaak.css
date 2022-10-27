@@ -29,7 +29,7 @@
   }
 
   .hero{
-    background-image: url(chip-achtergrond.png);
+    background-image: url(bg-image.webp);
     background-color: #7b94b475;
     background-size: cover;
     background-blend-mode: lighten;
