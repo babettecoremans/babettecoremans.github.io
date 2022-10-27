@@ -59,6 +59,16 @@
     padding-bottom: 500px;
   }
 
+  .bg-processor-en-kloksnelheid{
+    background-image: url(bg-image.webp);
+    background-color: #7b94b475;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+
   .logo {
     color: var(--color-white);
     font-size: 30px;
@@ -246,6 +256,39 @@
   }
 
   .text-moederbord-en-bus p{
+    margin-top: 15px;
+    max-width: 500px;
+    font-family: Montserrat;
+    color: floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-processor-en-kloksnelheid{
+    column-count: 2;
+    column-gap: 10px;
+    margin-top: 50px;
+  }
+
+  .text-processor-en-kloksnelheid h1{
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-processor-en-kloksnelheid h2{
+    margin-top: 50px;
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-processor-en-kloksnelheid p{
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
