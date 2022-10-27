@@ -127,6 +127,11 @@
     margin-left: 80px;
   }
 
+  .text-besturingssysteem{
+    column-count: 3;
+    column-gap: 10px;
+  }
+
   .text-besturingssysteem h1{
     margin-top: 115px;
     max-width: 500px;
