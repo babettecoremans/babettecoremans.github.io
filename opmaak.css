@@ -89,6 +89,16 @@
     padding-bottom: 250px;
   }
 
+  .bg-randappratuur{
+    background-image: url(bg-image.webp);
+    background-color: #7b94b475;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+
   .logo {
     color: var(--color-white);
     font-size: 30px;
@@ -380,6 +390,29 @@
   }
 
   .text-geheugen p{
+    margin-top: 15px;
+    max-width: 500px;
+    font-family: Montserrat;
+    color: floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-randapparatuur{
+    column-count: 2;
+    column-gap: 10px;
+    margin-top: 50px;
+  }
+
+  .text-randapparatuur h1{
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-randapparatuur p{
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
