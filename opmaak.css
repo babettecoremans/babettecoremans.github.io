@@ -245,6 +245,11 @@
     margin-left: 80px;
   }
 
+  .img-besturingssysteem-drivers{
+    border-radius: 10px;
+    width: 250px;
+  }
+
   .text-apps-en-api{
     column-count: 1;
     column-gap: 10px;
