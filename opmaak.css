@@ -414,6 +414,10 @@
     margin-left: 80px;
   }
 
+  .text-geheugen a{
+    color: fuchsia;
+  }
+
   .text-randapparatuur{
     column-count: 1;
     column-gap: 10px;
