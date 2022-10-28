@@ -347,6 +347,10 @@
     margin-left: 80px;
   }
 
+  .text-processor-en-kloksnelheid a{
+    color: fuchsia;
+  }
+
   .text-drielagenmodel{
     column-count: 1;
     column-gap: 10px;
