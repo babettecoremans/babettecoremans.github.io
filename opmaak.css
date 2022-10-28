@@ -351,6 +351,10 @@
     color: fuchsia;
   }
 
+  .text-processor-en-kloksnelheid  a:hover{
+    color: darkcyan;
+  }
+
   .text-drielagenmodel{
     column-count: 1;
     column-gap: 10px;
@@ -416,6 +420,10 @@
 
   .text-geheugen a{
     color: fuchsia;
+  }
+
+  .text-geheugen a:hover{
+    color: darkcyan;
   }
 
   .text-randapparatuur{
