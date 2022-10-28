@@ -274,6 +274,13 @@
     margin-left: 80px;
   }
 
+  .img-home{
+    border-radius: 10px;
+    width: 350px;
+    margin-top: -250px;
+    margin-left: 800px;
+  }
+
   .text-moederbord-en-bus{
     column-count: 2;
     column-gap: 10px;
