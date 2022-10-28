@@ -247,7 +247,8 @@
 
   .img-besturingssysteem-drivers{
     border-radius: 10px;
-    width: 250px;
+    width: 350px;
+    margin-left: 100px;
   }
 
   .text-apps-en-api{
