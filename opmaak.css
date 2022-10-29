@@ -109,6 +109,16 @@
     padding-bottom: 250px;
   }
 
+  .bg-communicatie{
+    background-image: url(bg-image.webp);
+    background-color: #7b94b475;
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+  
   .logo {
     color: var(--color-white);
     font-size: 30px;
@@ -500,4 +510,41 @@
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
+  }
+
+  .text-communicatie{
+    column-count: 2;
+    column-gap: 10px;
+    margin-top: 50px;
+  }
+
+  .text-communicatie h1{
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-communicatie h2{
+    margin-top: 50px;
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-communicatie p{
+    margin-top: 15px;
+    max-width: 500px;
+    font-family: Montserrat;
+    color: floralwhite;
+    margin-left: 80px;
+  }
+
+  .text-communicatie a{
+    color: fuchsia;
   }
