@@ -262,8 +262,8 @@
   .img-home{
     border-radius: 10px;
     width: 350px;
-    margin-top: 500px;
-    margin-left: 50%;
+    margin-top: 0px;
+    margin-left: 0;
   }
 
   /* opmaak colommen op de besturingssysteem-pagina */
