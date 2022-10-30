@@ -264,6 +264,7 @@
     width: 350px;
     top: 75%;
     left: 50%;
+    transform: translate(-50%,-25%)
    /* margin-top: -250px;
     margin-left: 1000px;*/
   }
