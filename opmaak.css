@@ -26,7 +26,6 @@
     background-blend-mode: lighten;
     color: white;
     background-repeat: no-repeat;
-    position: relative;
   } 
 
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
@@ -335,8 +334,6 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 18%;
-    position: absolute;
-  }
   }
 
   /* opmaak van de normale tekst op de pagina van het drielagenmodel*/
@@ -346,8 +343,6 @@
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-    position: absolute;
-  }
   }
 
   /* opmaak van het plaatje op de pagina van het drielagenmodel*/
