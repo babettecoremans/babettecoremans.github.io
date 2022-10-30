@@ -627,7 +627,7 @@
     color: darkcyan;
   }
 
-  /* opmaak footer*/
+  /* opmaak footer
   .footer {
     position: absolute;
     width: 100%;
@@ -637,7 +637,7 @@
     text-align: center;
     background-color: var(--color-black);
     bottom: 0;
-  }
+  }*/
 
   .text-logischelaag {
     width: 90%;
