@@ -258,14 +258,15 @@
     margin-left: 250px;
   }*/
 
-  /* Opmaak van het plaatje op de home-pagina
+  /* Opmaak van het plaatje op de home-pagina*/
   .img-home{
     border-radius: 10px;
-    box-shadow: 8px 8px 10px rgb(24, 14, 90);
     width: 350px;
-    margin-top: -250px;
-    margin-left: 1000px;
-  }*/
+    top: 75%;
+    left: 50%;
+   /* margin-top: -250px;
+    margin-left: 1000px;*/
+  }
 
   /* opmaak colommen op de besturingssysteem-pagina */
   .text-besturingssysteem{
