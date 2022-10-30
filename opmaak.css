@@ -622,22 +622,38 @@
   }
 
   .text-logischelaag {
-    width: 100%;
+    width: 90%;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
   }
 
-  .button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid fuchsia;
-    background: transparent;
+  .text-logischelaag h1{
+    font-size: 62px;
+  }
+
+  .text-logischelaag p{
+    margin: 10px 0 40px;
+    font-size: 14px;
     color: floralwhite;
-    cursor: pointer;
+  }
+
+  .button{
+   display: inline-block;
+   text-decoration: none;
+   color: floralwhite;
+   border: 1px solid floralwhite;
+   padding: 12px 34px;
+   font-size: 13px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+  }
+  
+  .button:hover{
+    border: 1px solid fuchsia;
+    background: fuchsia;
+    transition: 1s;
   }
