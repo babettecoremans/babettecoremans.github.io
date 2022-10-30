@@ -140,7 +140,7 @@
     color:fuchsia;
   }
   
-
+/* Maken van menu-bar */
   .menu-bar {
     background-color: var(--color-black);
     height: 80px;
@@ -178,13 +178,14 @@
     color: var(--color-primary);
   }
   
+  /* opmaak van het icoontje van een pijltje in de menubar. */
   .fas {
     float: right;
     margin-left: 10px;
     padding-top: 3px;
   }
   
-  /* dropdown menu style */
+  /* opmaak van het dropdown menu */
   .dropdown-menu {
     display: none;
   }
@@ -219,6 +220,7 @@
     background-color: var(--color-black);
   }
 
+  /* opmaak van de header van de home-pagina */
   .text-home h1{
     margin-top: 350px;
     max-width: 500px;
@@ -228,7 +230,7 @@
     color:floralwhite;
     margin-left: 250px;
   } 
-
+ /* opmaak van de normale tekst van de home-pagina. */
   .text-home p{
     margin-top: 35px;
     max-width: 350px;
@@ -237,6 +239,7 @@
     margin-left: 250px;
   }
 
+  /* Opmaak van het plaatje op de home-pagina*/
   .img-home{
     border-radius: 10px;
     box-shadow: 8px 8px 10px rgb(24, 14, 90);
@@ -245,12 +248,14 @@
     margin-left: 1000px;
   }
 
+  /* opmaak colommen op de besturingssysteem-pagina */
   .text-besturingssysteem{
     column-count: 2;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header van de besturingssysteem-pagina */
   .text-besturingssysteem h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -260,6 +265,7 @@
     margin-left: 80px;
   }
 
+/* opmaak van de ondertitels van de besturingssysteem-pagina */
   .text-besturingssysteem h2{
     margin-top: 50px;
     max-width: 500px;
@@ -270,6 +276,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst van de besturingssysteem-pagina */
   .text-besturingssysteem p{
     margin-top: 15px;
     max-width: 500px;
@@ -278,18 +285,21 @@
     margin-left: 80px;
   }
 
+/* opmaak van het plaatje op de besturingssysteem-pagina */
   .img-besturingssysteem-drivers{
     border-radius: 10px;
     width: 450px;
     margin-left: 75px;
   }
 
+  /* opmaak van de colommen op de pagina va apps en API*/
   .text-apps-en-api{
     column-count: 1;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina va apps en API*/
   .text-apps-en-api h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -299,6 +309,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst op de pagina va apps en API*/
   .text-apps-en-api p{
     margin-top: 15px;
     max-width: 500px;
@@ -307,6 +318,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van  het plaatje op de pagina va apps en API*/
   .img-web-API{
     border-radius: 10px;
     width: 700px;
@@ -314,12 +326,14 @@
     margin-left: 1000px;
   }
 
+  /* opmaak van de colommen op de pagina van het moederbord en bus*/
   .text-moederbord-en-bus{
     column-count: 2;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina van het moederbord en bus*/
   .text-moederbord-en-bus h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -329,6 +343,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de ondertitels op de pagina van het moederbord en bus*/
   .text-moederbord-en-bus h2{
     margin-top: 50px;
     max-width: 500px;
@@ -339,6 +354,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst op de pagina van het moederbord en bus*/
   .text-moederbord-en-bus p{
     margin-top: 15px;
     max-width: 500px;
@@ -347,12 +363,14 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de colommen op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid{
     column-count: 2;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -362,6 +380,7 @@
     margin-left: 80px;
   }
 
+/* opmaak van de ondertitels op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid h2{
     margin-top: 50px;
     max-width: 500px;
@@ -372,6 +391,7 @@
     margin-left: 80px;
   }
 
+/* opmaak van de normale tekst op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid p{
     margin-top: 15px;
     max-width: 500px;
@@ -380,6 +400,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de externe link op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid a{
     color: fuchsia;
   }
@@ -388,6 +409,7 @@
     color: darkcyan;
   }
 
+  /* opmaak van de colommen op de pagina van de processor en de kloksnelheid*/
   .text-drielagenmodel{
     column-count: 1;
     column-gap: 10px;
@@ -571,4 +593,5 @@
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    bottom: 0;
   }
