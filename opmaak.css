@@ -252,7 +252,7 @@
   .text-besturingssysteem{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header van de besturingssysteem-pagina */
@@ -409,13 +409,14 @@
     color: darkcyan;
   }
 
-  /* opmaak van de colommen op de pagina van de processor en de kloksnelheid*/
+  /* opmaak van de colommen op de pagina van het drielagenmodel*/
   .text-drielagenmodel{
     column-count: 1;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina van het drielagenmodel*/
   .text-drielagenmodel h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -425,6 +426,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst op de pagina van het drielagenmodel*/
   .text-drielagenmodel p{
     margin-top: 15px;
     max-width: 500px;
@@ -433,6 +435,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van het plaatje op de pagina van het drielagenmodel*/
   .img-drielagenmodel{
     border-radius: 10px;
     width: 350px;
@@ -440,12 +443,14 @@
     margin-left: 800px;
   }
 
+  /* opmaak van de colommen op de pagina van het geheugen*/
   .text-geheugen{
     column-count: 2;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina van het geheugen*/
   .text-geheugen h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -455,6 +460,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de ondertitels op de pagina van het geheugen*/
   .text-geheugen h2{
     margin-top: 50px;
     max-width: 500px;
@@ -465,6 +471,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst op de pagina van het geheugen*/
   .text-geheugen p{
     margin-top: 15px;
     max-width: 500px;
@@ -473,6 +480,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de externe linke op de pagina van het geheugen*/
   .text-geheugen a{
     color: fuchsia;
   }
@@ -481,12 +489,14 @@
     color: darkcyan;
   }
 
+  /* opmaak van de colommen op de pagina van de randapparatuur*/
   .text-randapparatuur{
     column-count: 1;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina van de randapparatuur*/
   .text-randapparatuur h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -496,6 +506,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst op de pagina van de randapparatuur*/
   .text-randapparatuur p{
     margin-top: 15px;
     max-width: 500px;
@@ -504,12 +515,14 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de colommen op de pagina van de sensoren en actuatoren*/
   .text-sensoren-en-actuatoren{
     column-count: 2;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina van de sensoren en actuatoren*/
   .text-sensoren-en-actuatoren h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -519,6 +532,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de ondertitels op de pagina van de sensoren en actuatoren*/
   .text-sensoren-en-actuatoren h2{
     margin-top: 50px;
     max-width: 500px;
@@ -529,6 +543,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de ondertitels op de pagina van de sensoren en actuatoren*/
   .text-sensoren-en-actuatoren h3{
     margin-top: 50px;
     max-width: 500px;
@@ -539,6 +554,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst op de pagina van de sensoren en actuatoren*/
   .text-sensoren-en-actuatoren p{
     margin-top: 15px;
     max-width: 500px;
@@ -547,12 +563,14 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de colommen op de pagina van de communicatie*/
   .text-communicatie{
     column-count: 2;
     column-gap: 10px;
     margin-top: 50px;
   }
 
+  /* opmaak van de header op de pagina van de communicatie*/
   .text-communicatie h1{
     max-width: 500px;
     font-family: Montserrat;
@@ -562,6 +580,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de ondertitels op de pagina van de communicatie*/
   .text-communicatie h2{
     margin-top: 50px;
     max-width: 500px;
@@ -572,6 +591,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de normale tekst op de pagina van de communicatie*/
   .text-communicatie p{
     margin-top: 15px;
     max-width: 500px;
@@ -580,6 +600,7 @@
     margin-left: 80px;
   }
 
+  /* opmaak van de interne link op de pagina van de communicatie*/
   .text-communicatie a{
     color: fuchsia;
   }
@@ -588,6 +609,7 @@
     color: darkcyan;
   }
 
+  /* opmaak footer*/
   .footer {
     padding: 20px;
     text-align: center;
