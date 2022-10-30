@@ -322,7 +322,7 @@
   .text-drielagenmodel{
     column-count: 1;
     column-gap: 10px;
-    margin-top: 150px;
+    margin-top: 25%;
   }
 
   /* opmaak van de header op de pagina van het drielagenmodel*/
@@ -332,7 +332,7 @@
     font-size: 30px;
     margin-bottom: 20px;
     color:floralwhite;
-    margin-left: 80px;
+    margin-left: 20%;
   }
 
   /* opmaak van de normale tekst op de pagina van het drielagenmodel*/
