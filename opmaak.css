@@ -611,6 +611,7 @@
 
   /* opmaak footer*/
   .footer {
+    position: absolute;
     padding: 20px;
     text-align: center;
     background: #ddd;
