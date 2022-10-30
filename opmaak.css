@@ -262,11 +262,8 @@
   .img-home{
     border-radius: 10px;
     width: 350px;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%,-25%)
-   /* margin-top: -250px;
-    margin-left: 1000px;*/
+    margin-top: 75%;
+    margin-left: 50%;
   }
 
   /* opmaak colommen op de besturingssysteem-pagina */
