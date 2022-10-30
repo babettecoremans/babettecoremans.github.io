@@ -20,13 +20,22 @@
   /* Het lettertype 'Montserrat' instellen als het standaardlettertype voor alle pagina's en alle pagina's dezelfde achtergrondafbeelding geven. De herlderheid van de achtergrondafbeelding wordt hierbij aangepast zodat de tekst leesbaar blijft. */
   body {
     font-family: Montserrat;
-    background-image: url(bg-image.webp);
+    /*background-image: url(bg-image.webp);
     background-color: #22487a5b;
     background-size: cover;
     background-blend-mode: lighten;
     color: white;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
   } 
+
+  .bg-drielagenmodel{
+    background-image: url(bg-image.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
 
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
   .logo {
