@@ -220,7 +220,25 @@
     background-color: var(--color-black);
   }
 
-  /* opmaak van de header van de home-pagina */
+  .text-home {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .text-home h1{
+    font-size: 62px;
+  }
+
+  .text-home p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: floralwhite;
+  }
+  /* opmaak van de header van de home-pagina
   .text-home h1{
     margin-top: 350px;
     max-width: 500px;
@@ -229,24 +247,25 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 250px;
-  } 
- /* opmaak van de normale tekst van de home-pagina. */
+  } */
+
+ /* opmaak van de normale tekst van de home-pagina.
   .text-home p{
     margin-top: 35px;
     max-width: 350px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 250px;
-  }
+  }*/
 
-  /* Opmaak van het plaatje op de home-pagina*/
+  /* Opmaak van het plaatje op de home-pagina
   .img-home{
     border-radius: 10px;
     box-shadow: 8px 8px 10px rgb(24, 14, 90);
     width: 350px;
     margin-top: -250px;
     margin-left: 1000px;
-  }
+  }*/
 
   /* opmaak colommen op de besturingssysteem-pagina */
   .text-besturingssysteem{
