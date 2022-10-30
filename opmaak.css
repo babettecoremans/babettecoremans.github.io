@@ -296,7 +296,7 @@
   .text-apps-en-api{
     column-count: 1;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina va apps en API*/
@@ -330,7 +330,7 @@
   .text-moederbord-en-bus{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van het moederbord en bus*/
@@ -367,7 +367,7 @@
   .text-processor-en-kloksnelheid{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de processor en de kloksnelheid*/
@@ -413,7 +413,7 @@
   .text-drielagenmodel{
     column-count: 1;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van het drielagenmodel*/
@@ -447,7 +447,7 @@
   .text-geheugen{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van het geheugen*/
@@ -493,7 +493,7 @@
   .text-randapparatuur{
     column-count: 1;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de randapparatuur*/
@@ -519,7 +519,7 @@
   .text-sensoren-en-actuatoren{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de sensoren en actuatoren*/
@@ -567,7 +567,7 @@
   .text-communicatie{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de communicatie*/
