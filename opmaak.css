@@ -620,3 +620,23 @@
     background-color: var(--color-black);
     bottom: 0;
   }
+
+  .text-logischelaag h1{
+    text-align: center;
+    max-width: 800px;
+  }
+
+  .text-logischelaag p{
+    text-align: center;
+    max-width: 800px;
+  }
+
+  .text-logischelaag a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: floralwhite;
+    color: #2b1055;
+    font-size: 1.5em;
+  }
