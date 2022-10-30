@@ -615,7 +615,7 @@
     width: 100%;
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background-color: var(--color-black);
     margin-top: 20px;
     bottom: 0;
   }
