@@ -207,6 +207,7 @@
     width: 50%;
     padding: 40px;
     margin: 100px auto;
+    border-radius: 10px;
   }
 
   .text-apps-en-api p{
