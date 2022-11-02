@@ -249,7 +249,7 @@ p{margin-top: 0;}
   .collums{
     column-count: 2;
     column-gap: 10px;
-    column-width: 500px;
+    column-width: 400px;
   }
 
   /* opmaak van de header op de pagina van het moederbord en bus*/
