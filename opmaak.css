@@ -20,9 +20,17 @@
   /* Het lettertype 'Montserrat' instellen als het standaardlettertype voor alle pagina's en alle pagina's dezelfde achtergrondafbeelding geven. De herlderheid van de achtergrondafbeelding wordt hierbij aangepast zodat de tekst leesbaar blijft. */
   body {
     font-family: Montserrat;
+    background-image: url(bg-image.webp);
+    background-color: #22487a5b;
+    background-blend-mode: lighten;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    background-attachment: fixed;
   } 
 
-  .bg-image{
+  /*.bg-image{
     background-image: url(bg-image.webp);
     background-color: #22487a5b;
     background-blend-mode: lighten;
@@ -32,7 +40,7 @@
     width: 100%;
     position: center;
     min-height: 100vh;
-  }
+  }*/
 
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
   .logo {
@@ -194,12 +202,19 @@
     margin-left: 75px;
   }
 
-  
   .text-apps-en-api {
     position: absolute;
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
   }
 
-  /* opmaak van de header op de pagina va apps en API*/
+  /*.text-apps-en-api {
+    position: absolute;
+  }*/
+
+  /* opmaak van de header op de pagina va apps en API
   .text-apps-en-api h1{
     margin-top: 200px;
     max-width: 400px;
@@ -208,16 +223,16 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   /* opmaak van de normale tekst op de pagina va apps en API*/
-  .text-apps-en-api p{
+  /*.text-apps-en-api p{
     margin-top: 15px;
     max-width: 400px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   /* opmaak van  het plaatje op de pagina va apps en API*/
   .img-web-API{
