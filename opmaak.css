@@ -248,6 +248,17 @@
     margin-top: 15px;
   }
 
+  /* opmaak van het plaatje op de besturingssysteem-pagina */
+  .img-moederbord{
+    /*het geven van ronde randen aan plaatje*/
+    border-radius: 10px;
+   
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
   /* Maken van wit tekstvak op processor-en-kloksnelheid-pagina. */
   .text-processor-en-kloksnelheid{
     background: white;
