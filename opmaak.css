@@ -202,12 +202,6 @@
     margin-left: 75px;
   }
 
-  /* opmaak van de colommen op de pagina va apps en API*/
-  .text-apps-en-api{
-    column-count: 1;
-    column-gap: 10px;
-  }
-
   /* opmaak van de header op de pagina va apps en API*/
   .text-apps-en-api h1{
     margin-top: 150px;
