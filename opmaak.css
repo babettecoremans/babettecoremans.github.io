@@ -32,7 +32,6 @@
     width: 100%;
     position: center;
     height: 100vh;
-    position: relative;
   }
 
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
@@ -145,9 +144,9 @@
     color: floralwhite;
   }
 
-  /**.text-besturingssysteem{
+  .text-besturingssysteem{
     position: relative;
-  }**/
+  }
   
   /* opmaak van de header van de besturingssysteem-pagina */
   .text-besturingssysteem h1{
