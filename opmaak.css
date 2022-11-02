@@ -31,9 +31,9 @@
     background-repeat: no-repeat;
     width: 100%;
     position: center;
-    height 109vh
+    height: 100vh;
   }
-  
+
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
   .logo {
     color: var(--color-white);
