@@ -152,12 +152,12 @@
     color: floralwhite;
   }
 
-   /* opmaak van de colommen op elke pagina*/
+   /* opmaak van de colommen op elke pagina
    .columns{
     column-count: 2;
     column-gap: 10px;
     column-width: 400px;
-  }
+  }*/
 
   .text-besturingssysteem {
     background: white;
@@ -225,8 +225,6 @@
 
 /* opmaak van het plaatje op de besturingssysteem-pagina */
   .img-besturingssysteem-drivers{
-    margin-top: 30px;
-    margin-bottom: 5px;
     border-radius: 10px;
     width: 50%;
     margin: 100px auto;
