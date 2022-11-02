@@ -210,6 +210,12 @@
     margin: 100px auto;
   }
 
+  .text-apps-en-api p{
+    font-family: Montserrat;
+    color: black;
+  }
+
+
   /*.text-apps-en-api {
     position: absolute;
   }*/
