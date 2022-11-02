@@ -12,6 +12,7 @@
     --color-black-1: #212b38;
   }
   
+  /* standaard-instellingen web-pagina's*/
   * {
     margin: 0;
     padding: 0;
@@ -121,6 +122,7 @@
     background-color: var(--color-black);
   }
 
+  /* opmaak tekst op de home-pagina*/
   .text-home {
     width: 90%;
     position: absolute;
@@ -140,6 +142,7 @@
     color: floralwhite;
   }
 
+  /* Maken van wit tekstvak op besturingssysteem-pagina. */
   .text-besturingssysteem {
     background: white;
     width: 50%;
@@ -148,6 +151,7 @@
     border-radius: 10px;
   }
 
+  /* Opmaak tekst op het besturingssysteem-pagina. */
   .text-besturingssysteem h1{
     color: black;
     font-family: Montserrat;
@@ -171,11 +175,14 @@
 
 /* opmaak van het plaatje op de besturingssysteem-pagina */
   .img-besturingssysteem-drivers{
+    /*het geven van ronde randen aan plaatje*/
     border-radius: 10px;
+   
     width: 50%;
     margin: 100px auto;
   }
 
+  /* Maken van wit tekstvak op apps-en-api-pagina. */
   .text-apps-en-api {
     background: white;
     width: 50%;
@@ -184,13 +191,13 @@
     border-radius: 10px;
   }
 
+  /* opmaak van tekst op de apps-en-api-pagina.*/
   .text-apps-en-api h1{
     color: black;
     font-family: Montserrat;
     font-size: 30px;
     margin-bottom: 20px;
   }
-
 
   .text-apps-en-api p{
     font-family: Montserrat;
@@ -200,12 +207,15 @@
 
   /* opmaak van  het plaatje op de pagina va apps en API*/
   .img-web-API{
+    /* het geven van ronde randen aan het plaatje*/
     border-radius: 10px;
+   
     width: 400px;
     margin-top: 30px;
     margin-left: 100px;
   }
 
+    /* Maken van wit tekstvak op moederbord-en-bus-pagina. */
   .text-moederbord-en-bus{
     background: white;
     width: 50%;
@@ -214,6 +224,7 @@
     border-radius: 10px;
   }
 
+  /*opmaak tekst van de moederbord-en-bus-pagina*/
   .text-moederbord-en-bus h1{
     color: black;
     font-family: Montserrat;
@@ -235,6 +246,7 @@
     margin-top: 15px;
   }
 
+  /* Maken van wit tekstvak op processor-en-kloksnelheid-pagina. */
   .text-processor-en-kloksnelheid{
     background: white;
     width: 50%;
@@ -243,6 +255,7 @@
     border-radius: 10px;
   }
 
+  /*opmaak tekst op processor-en-kloksnelheid-pagina*/
   .text-processor-en-kloksnelheid h1{
     color: black;
     font-family: Montserrat;
@@ -273,6 +286,7 @@
     color: darkcyan;
   }
 
+  /* Maken van wit tekstvak op drielagenmodel-pagina. */
   .text-drielagenmodel {
     background: white;
     width: 50%;
@@ -281,13 +295,13 @@
     border-radius: 10px;
   }
 
+    /* opmaak tekst op drielagenmodel-pagina. */
   .text-drielagenmodel h1{
     color: black;
     font-family: Montserrat;
     font-size: 30px;
     margin-bottom: 20px;
   }
-
 
   .text-drielagenmodel p{
     font-family: Montserrat;
@@ -297,12 +311,15 @@
 
   /* opmaak van het plaatje op de pagina van het drielagenmodel*/
   .img-drielagenmodel{
+    /*geven van ronde randen aan plaatje*/
     border-radius: 10px;
+    
     width: 350px;
     margin-top: 30px;
     margin-left: 200px;
   }
 
+  /* Maken van wit tekstvak op geheugen-pagina. */
   .text-geheugen{
     background: white;
     width: 50%;
@@ -311,6 +328,7 @@
     border-radius: 10px;
   }
 
+  /*opmaak tekst op geheugen-pagina*/
   .text-geheugen h1{
     color: black;
     font-family: Montserrat;
@@ -341,6 +359,7 @@
     color: darkcyan;
   }
 
+  /* Maken van wit tekstvak op randapparatuur-pagina. */
   .text-randapparatuur{
     background: white;
     width: 50%;
@@ -362,6 +381,7 @@
     margin-top: 15px;
   }
 
+  /* Maken van wit tekstvak op sensoren-en-actuatoren-pagina. */
   .text-sensoren-en-actuatoren{
     background: white;
     width: 50%;
@@ -370,6 +390,7 @@
     border-radius: 10px;
   }
 
+  /*opmaak tekst op sensoren-en-actuatoren-pagina*/
   .text-sensoren-en-actuatoren h1{
     color: black;
     font-family: Montserrat;
@@ -399,6 +420,7 @@
     margin-top: 15px;
   }
 
+  /* Maken van wit tekstvak op communicatie-pagina. */
   .text-communicatie{
     background: white;
     width: 50%;
@@ -407,6 +429,7 @@
     border-radius: 10px;
   }
 
+  /*opmaak tekst op communicatie-pagina*/
   .text-communicatie h1{
     color: black;
     font-family: Montserrat;
@@ -449,6 +472,7 @@
     bottom: 0;
   }*/
 
+  /*positioneren van de tekst op logischelaag-pagina*/
   .text-logischelaag {
     width: 90%;
     position: absolute;
@@ -458,6 +482,7 @@
     text-align: center;
   }
 
+  /*opmaak tekst op logischelaag-pagina*/
   .text-logischelaag h1{
     font-size: 62px;
   }
@@ -468,6 +493,7 @@
     color: floralwhite;
   }
 
+  /* opmaak van de knop 'lees meer' op de pagina's logische-, fysieke-, en toepassingenlaag*/
   .button{
    display: inline-block;
    text-decoration: none;
@@ -480,12 +506,14 @@
    cursor: pointer;
   }
   
+  /*opmaak knop 'lees meer' wanneer de cursor op de knop staat*/
   .button:hover{
     border: 1px solid fuchsia;
     background: fuchsia;
     transition: 1s;
   }
 
+  /* positioneren tekst op fysiekelaag - pagina*/
   .text-fysiekelaag {
     width: 90%;
     position: absolute;
@@ -495,6 +523,7 @@
     text-align: center;
   }
 
+  /* opmaak tekst op fysiekelaag - pagina*/
   .text-fysiekelaag h1{
     font-size: 62px;
   }
@@ -505,6 +534,7 @@
     color: floralwhite;
   }
 
+  /*positioneren tekst op toepassingenlaag-pagina*/
   .text-toepassingenlaag {
     width: 90%;
     position: absolute;
@@ -514,6 +544,7 @@
     text-align: center;
   }
 
+  /* opmaak tekst op toepassingenlaag-pagina*/
   .text-toepassingenlaag h1{
     font-size: 62px;
   }
