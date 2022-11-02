@@ -162,14 +162,7 @@
     color: floralwhite;
     margin-left: 250px;
   }*/
-
-  /* opmaak colommen op de besturingssysteem-pagina */
-  .text-besturingssysteem{
-    column-count: 2;
-    column-gap: 10px;
-    margin-top: 0px;
-  }
-
+  
   /* opmaak van de header van de besturingssysteem-pagina */
   .text-besturingssysteem h1{
     margin-top: 150px;
