@@ -179,7 +179,8 @@
     border-radius: 10px;
    
     width: 50%;
-    margin: 100px auto;
+    text-align: center;
+    /*margin: 100px auto;*/
   }
 
   /* Maken van wit tekstvak op apps-en-api-pagina. */
