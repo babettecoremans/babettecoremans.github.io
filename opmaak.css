@@ -32,6 +32,7 @@
     width: 100%;
     position: center;
     height: 100vh;
+    position: relative;
   }
 
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
@@ -144,12 +145,13 @@
     color: floralwhite;
   }
 
-  .text-besturingssysteem{
-    position: absolute;
-  }
+  /**.text-besturingssysteem{
+    position: relative;
+  }**/
   
   /* opmaak van de header van de besturingssysteem-pagina */
   .text-besturingssysteem h1{
+    position: absolute;
     margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
