@@ -355,12 +355,6 @@
     margin-left: 800px;
   }
 
-  /* opmaak van de colommen op de pagina van het geheugen*/
-  .text-geheugen{
-    column-count: 2;
-    column-gap: 10px;
-  }
-
   /* opmaak van de header op de pagina van het geheugen*/
   .text-geheugen h1{
     margin-top: 150px;
