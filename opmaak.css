@@ -244,7 +244,7 @@
   }
 
   /* opmaak van de colommen op de pagina van het moederbord en bus*/
-  .text-moederbord-en-bus{
+  .collums{
     column-count: 2;
     column-gap: 10px;
   }
