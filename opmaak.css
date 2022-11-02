@@ -34,6 +34,18 @@
     height: 100vh;
   }
 
+  .bg-besturingssysteem{
+    background-image: url(bg-image.webp);
+    background-color: #22487a5b;
+    background-blend-mode: lighten;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: center;
+    height: 100vh;
+  }
+
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
   .logo {
     color: var(--color-white);
