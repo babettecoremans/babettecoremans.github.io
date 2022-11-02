@@ -243,6 +243,8 @@
     margin-left: 700px;
   }
 
+p{margin-top: 0;}
+
   /* opmaak van de colommen op de pagina van het moederbord en bus*/
   .collums{
     column-count: 2;
@@ -254,7 +256,7 @@
   .text-moederbord-en-bus{
     margin-bottom: 0px;
   }
-  
+
   .text-moederbord-en-bus h1{
     margin-top: 150px;
     max-width: 500px;
