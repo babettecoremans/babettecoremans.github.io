@@ -334,11 +334,30 @@
     color: darkcyan;
   }
 
-  .text-drielagenmodel{
-    position: absolute;
+  .text-apps-en-api {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
   }
 
-  /* opmaak van de header op de pagina van het drielagenmodel*/
+  .text-apps-en-api h1{
+    color: black;
+    font-family: Montserrat;
+  }
+
+
+  .text-apps-en-api p{
+    font-family: Montserrat;
+    color: black;
+  }
+
+ /* .text-drielagenmodel{
+    position: absolute;
+  }*/
+
+  /* opmaak van de header op de pagina van het drielagenmodel
   .text-drielagenmodel h1{
     margin-top: 200px;
     max-width: 400px;
@@ -347,16 +366,16 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de normale tekst op de pagina van het drielagenmodel*/
+  /* opmaak van de normale tekst op de pagina van het drielagenmodel
   .text-drielagenmodel p{
     margin-top: 15px;
     max-width: 400px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   /* opmaak van het plaatje op de pagina van het drielagenmodel*/
   .img-drielagenmodel{
