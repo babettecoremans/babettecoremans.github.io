@@ -179,8 +179,7 @@
     border-radius: 10px;
    
     width: 50%;
-    text-align: center;
-    /*margin: 100px auto;*/
+    margin: 100px auto;
   }
 
   /* Maken van wit tekstvak op apps-en-api-pagina. */
@@ -380,6 +379,16 @@
     font-family: Montserrat;
     color: black;
     margin-top: 15px;
+  }
+
+  /*opmaak plaatje op randappratuur-pagina*/
+  .img-randapparatuur{
+    /*het geven van ronde randen aan plaatje*/
+    border-radius: 10px;
+   
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
   }
 
   /* Maken van wit tekstvak op sensoren-en-actuatoren-pagina. */
