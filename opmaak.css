@@ -332,8 +332,8 @@
   .img-drielagenmodel{
     border-radius: 10px;
     width: 350px;
-    margin-top: -500px;
-    margin-left: 800px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 
   /* opmaak van de header op de pagina van het geheugen*/
