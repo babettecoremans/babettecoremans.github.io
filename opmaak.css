@@ -251,6 +251,10 @@
   }
 
   /* opmaak van de header op de pagina van het moederbord en bus*/
+  .text-moederbord-en-bus{
+    margin-bottom: 0px;
+  }
+  
   .text-moederbord-en-bus h1{
     margin-top: 150px;
     max-width: 500px;
