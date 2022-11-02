@@ -31,7 +31,8 @@
     background-repeat: no-repeat;
     width: 100%;
     position: center;
-    height: 100vh;
+    min-height: 100vh;
+    position: relative;
   }
 
   /* De kleur en de groote van het lettertype van het eerste gedeeltje van het logo wordt vastgesteld.*/
@@ -132,7 +133,6 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    position: absolute;
   }
 
   .text-home h1{
