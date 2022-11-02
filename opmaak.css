@@ -145,12 +145,11 @@
   }
 
   .text-besturingssysteem{
-    position: relative;
+    position: absolute;
   }
   
   /* opmaak van de header van de besturingssysteem-pagina */
   .text-besturingssysteem h1{
-    position: absolute;
     margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
