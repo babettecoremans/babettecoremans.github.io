@@ -213,13 +213,15 @@
   .text-apps-en-api h1{
     color: black;
     font-family: Montserrat;
-    margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
 
 
   .text-apps-en-api p{
     font-family: Montserrat;
     color: black;
+    margin-top: 15px;
   }
 
 
@@ -346,12 +348,15 @@
   .text-drielagenmodelh1{
     color: black;
     font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
 
 
   .text-drielagenmodel p{
     font-family: Montserrat;
     color: black;
+    margin-top: 15px;
   }
 
  /* .text-drielagenmodel{
