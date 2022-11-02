@@ -213,11 +213,11 @@
   .text-apps-en-api{
     column-count: 1;
     column-gap: 10px;
-    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina va apps en API*/
   .text-apps-en-api h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
@@ -247,11 +247,11 @@
   .text-moederbord-en-bus{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van het moederbord en bus*/
   .text-moederbord-en-bus h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
@@ -284,11 +284,11 @@
   .text-processor-en-kloksnelheid{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
@@ -330,12 +330,11 @@
   .text-drielagenmodel{
     column-count: 1;
     column-gap: 10px;
-    margin-top: 10%;
-    padding-bottom: 10%;
   }
 
   /* opmaak van de header op de pagina van het drielagenmodel*/
   .text-drielagenmodel h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
@@ -365,11 +364,11 @@
   .text-geheugen{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van het geheugen*/
   .text-geheugen h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
@@ -411,11 +410,11 @@
   .text-randapparatuur{
     column-count: 1;
     column-gap: 10px;
-    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de randapparatuur*/
   .text-randapparatuur h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
@@ -437,11 +436,11 @@
   .text-sensoren-en-actuatoren{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de sensoren en actuatoren*/
   .text-sensoren-en-actuatoren h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
@@ -485,11 +484,11 @@
   .text-communicatie{
     column-count: 2;
     column-gap: 10px;
-    margin-top: 150px;
   }
 
   /* opmaak van de header op de pagina van de communicatie*/
   .text-communicatie h1{
+    margin-top: 150px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
