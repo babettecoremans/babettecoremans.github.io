@@ -196,7 +196,7 @@
 
 /* opmaak van het plaatje op de besturingssysteem-pagina */
   .img-besturingssysteem-drivers{
-    margin-top: 150px;
+    margin-top: 0px;
     border-radius: 10px;
     width: 450px;
     margin-left: 75px;
@@ -306,12 +306,6 @@
 
   .text-processor-en-kloksnelheid  a:hover{
     color: darkcyan;
-  }
-
-  /* opmaak van de colommen op de pagina van het drielagenmodel*/
-  .text-drielagenmodel{
-    column-count: 1;
-    column-gap: 10px;
   }
 
   /* opmaak van de header op de pagina van het drielagenmodel*/
