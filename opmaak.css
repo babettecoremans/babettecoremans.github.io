@@ -253,12 +253,8 @@ p{margin-top: 0;}
   }
 
   /* opmaak van de header op de pagina van het moederbord en bus*/
-  .text-moederbord-en-bus{
-    margin-bottom: 0px;
-  }
-
   .text-moederbord-en-bus h1{
-    margin-top: 150px;
+    margin-top: 0px;
     max-width: 500px;
     font-family: Montserrat;
     font-size: 30px;
