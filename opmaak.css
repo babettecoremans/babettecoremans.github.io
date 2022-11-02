@@ -281,12 +281,6 @@
     margin-left: 80px;
   }
 
-  /* opmaak van de colommen op de pagina van de processor en de kloksnelheid*/
-  .text-processor-en-kloksnelheid{
-    column-count: 2;
-    column-gap: 10px;
-  }
-
   /* opmaak van de header op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid h1{
     margin-top: 150px;
