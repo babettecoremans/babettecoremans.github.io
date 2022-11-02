@@ -415,12 +415,6 @@
     margin-left: 80px;
   }
 
-  /* opmaak van de colommen op de pagina van de sensoren en actuatoren*/
-  .text-sensoren-en-actuatoren{
-    column-count: 2;
-    column-gap: 10px;
-  }
-
   /* opmaak van de header op de pagina van de sensoren en actuatoren*/
   .text-sensoren-en-actuatoren h1{
     margin-top: 150px;
