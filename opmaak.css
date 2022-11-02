@@ -288,11 +288,40 @@
   }
 
   .text-moederbord-en-bus{
-    position: absolute;
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
   }
 
+  .text-moederbord-en-bus h1{
+    color: black;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 
-  /* opmaak van de header op de pagina van het moederbord en bus*/
+  .text-moederbord-en-bus h2{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .text-moederbord-en-bus p{
+    font-family: Montserrat;
+    color: black;
+    margin-top: 15px;
+  }
+
+  /*.text-moederbord-en-bus{
+    position: absolute;
+  }*/
+
+
+  /* opmaak van de header op de pagina van het moederbord en bus
   .text-moederbord-en-bus h1{
     margin-top: 200px;
     max-width: 400px;
@@ -301,9 +330,9 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de ondertitels op de pagina van het moederbord en bus*/
+  /* opmaak van de ondertitels op de pagina van het moederbord en bus
   .text-moederbord-en-bus h2{
     margin-top: 50px;
     max-width: 400px;
@@ -312,22 +341,51 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de normale tekst op de pagina van het moederbord en bus*/
+  /* opmaak van de normale tekst op de pagina van het moederbord en bus
   .text-moederbord-en-bus p{
     margin-top: 15px;
     max-width: 400px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   .text-processor-en-kloksnelheid{
-    position: absolute;
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
   }
 
-  /* opmaak van de header op de pagina van de processor en de kloksnelheid*/
+  .text-processor-en-kloksnelheid h1{
+    color: black;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .text-processor-en-kloksnelheid h2{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .text-processor-en-kloksnelheid p{
+    font-family: Montserrat;
+    color: black;
+    margin-top: 15px;
+  }
+
+  /**.text-processor-en-kloksnelheid{
+    position: absolute;
+  }*/
+
+  /* opmaak van de header op de pagina van de processor en de kloksnelheid
   .text-processor-en-kloksnelheid h1{
     margin-top: 175px;
     max-width: 500px;
@@ -336,9 +394,9 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-/* opmaak van de ondertitels op de pagina van de processor en de kloksnelheid*/
+/* opmaak van de ondertitels op de pagina van de processor en de kloksnelheid
   .text-processor-en-kloksnelheid h2{
     margin-top: 50px;
     max-width: 500px;
@@ -347,16 +405,16 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-/* opmaak van de normale tekst op de pagina van de processor en de kloksnelheid*/
+/* opmaak van de normale tekst op de pagina van de processor en de kloksnelheid
   .text-processor-en-kloksnelheid p{
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   /* opmaak van de externe link op de pagina van de processor en de kloksnelheid*/
   .text-processor-en-kloksnelheid a{
@@ -422,10 +480,39 @@
   }
 
   .text-geheugen{
-    position: absolute;
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
   }
 
-  /* opmaak van de header op de pagina van het geheugen*/
+  .text-geheugen h1{
+    color: black;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .text-geheugen h2{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .text-geheugen p{
+    font-family: Montserrat;
+    color: black;
+    margin-top: 15px;
+  }
+
+  /*.text-geheugen{
+    position: absolute;
+  }*/
+
+  /* opmaak van de header op de pagina van het geheugen
   .text-geheugen h1{
     margin-top: 175px;
     max-width: 500px;
@@ -434,9 +521,9 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de ondertitels op de pagina van het geheugen*/
+  /* opmaak van de ondertitels op de pagina van het geheugen
   .text-geheugen h2{
     margin-top: 50px;
     max-width: 500px;
@@ -445,16 +532,16 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de normale tekst op de pagina van het geheugen*/
+  /* opmaak van de normale tekst op de pagina van het geheugen
   .text-geheugen p{
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   /* opmaak van de externe linke op de pagina van het geheugen*/
   .text-geheugen a{
@@ -465,12 +552,32 @@
     color: darkcyan;
   }
 
-  
   .text-randapparatuur{
-    position: absolute;
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
   }
 
-  /* opmaak van de header op de pagina van de randapparatuur*/
+  .text-randapparatuur h1{
+    color: black;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .text-randapparatuur p{
+    font-family: Montserrat;
+    color: black;
+    margin-top: 15px;
+  }
+
+ /* .text-randapparatuur{
+    position: absolute;
+  }*/
+
+  /* opmaak van de header op de pagina van de randapparatuur
   .text-randapparatuur h1{
     margin-top: 250px;
     max-width: 400px;
@@ -479,21 +586,59 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de normale tekst op de pagina van de randapparatuur*/
+  /* opmaak van de normale tekst op de pagina van de randapparatuur
   .text-randapparatuur p{
     margin-top: 15px;
     max-width: 400px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
+
   .text-sensoren-en-actuatoren{
-    position: absolute;
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
   }
 
-  /* opmaak van de header op de pagina van de sensoren en actuatoren*/
+  .text-sensoren-en-actuatoren h1{
+    color: black;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .text-sensoren-en-actuatoren h2{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .text-sensoren-en-actuatoren h3{
+    color: black;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .text-sensoren-en-actuatoren p{
+    font-family: Montserrat;
+    color: black;
+    margin-top: 15px;
+  }
+
+  /*.text-sensoren-en-actuatoren{
+    position: absolute;
+  }*/
+
+  /* opmaak van de header op de pagina van de sensoren en actuatoren
   .text-sensoren-en-actuatoren h1{
     margin-top: 200px;
     max-width: 500px;
@@ -502,9 +647,9 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de ondertitels op de pagina van de sensoren en actuatoren*/
+  /* opmaak van de ondertitels op de pagina van de sensoren en actuatoren
   .text-sensoren-en-actuatoren h2{
     margin-top: 50px;
     max-width: 500px;
@@ -513,9 +658,9 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de ondertitels op de pagina van de sensoren en actuatoren*/
+  /* opmaak van de ondertitels op de pagina van de sensoren en actuatoren
   .text-sensoren-en-actuatoren h3{
     margin-top: 50px;
     max-width: 500px;
@@ -524,22 +669,51 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de normale tekst op de pagina van de sensoren en actuatoren*/
+  /* opmaak van de normale tekst op de pagina van de sensoren en actuatoren
   .text-sensoren-en-actuatoren p{
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   .text-communicatie{
-    position: absolute;
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
   }
 
-  /* opmaak van de header op de pagina van de communicatie*/
+  .text-communicatie h1{
+    color: black;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .text-communicatie h2{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .text-communicatie p{
+    font-family: Montserrat;
+    color: black;
+    margin-top: 15px;
+  }
+
+  /*.text-communicatie{
+    position: absolute;
+  }*/
+
+  /* opmaak van de header op de pagina van de communicatie
   .text-communicatie h1{
     margin-top: 200px;
     max-width: 500px;
@@ -548,9 +722,9 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de ondertitels op de pagina van de communicatie*/
+  /* opmaak van de ondertitels op de pagina van de communicatie
   .text-communicatie h2{
     margin-top: 50px;
     max-width: 500px;
@@ -559,16 +733,16 @@
     margin-bottom: 20px;
     color:floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
-  /* opmaak van de normale tekst op de pagina van de communicatie*/
+  /* opmaak van de normale tekst op de pagina van de communicatie
   .text-communicatie p{
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
-  }
+  }*/
 
   /* opmaak van de interne link op de pagina van de communicatie*/
   .text-communicatie a{
