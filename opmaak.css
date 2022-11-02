@@ -395,12 +395,6 @@
     color: darkcyan;
   }
 
-  /* opmaak van de colommen op de pagina van de randapparatuur*/
-  .text-randapparatuur{
-    column-count: 1;
-    column-gap: 10px;
-  }
-
   /* opmaak van de header op de pagina van de randapparatuur*/
   .text-randapparatuur h1{
     margin-top: 250px;
@@ -415,7 +409,7 @@
   /* opmaak van de normale tekst op de pagina van de randapparatuur*/
   .text-randapparatuur p{
     margin-top: 15px;
-    max-width: 500px;
+    max-width: 400px;
     font-family: Montserrat;
     color: floralwhite;
     margin-left: 80px;
