@@ -22,19 +22,7 @@
     font-family: Montserrat;
   } 
 
-  .bg-home{
-    background-image: url(bg-image.webp);
-    background-color: #22487a5b;
-    background-blend-mode: lighten;
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: center;
-    height: 100vh;
-  }
-
-  .bg-besturingssysteem{
+  .bg-image{
     background-image: url(bg-image.webp);
     background-color: #22487a5b;
     background-blend-mode: lighten;
