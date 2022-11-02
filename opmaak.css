@@ -210,6 +210,12 @@
     border-radius: 10px;
   }
 
+  .text-apps-en-api h1{
+    color: black;
+    font-family: Montserrat;
+  }
+
+
   .text-apps-en-api p{
     font-family: Montserrat;
     color: black;
