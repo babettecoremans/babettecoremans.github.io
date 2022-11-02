@@ -226,6 +226,7 @@
 /* opmaak van het plaatje op de besturingssysteem-pagina */
   .img-besturingssysteem-drivers{
     margin-top: 30px;
+    margin-bottom: 5px;
     border-radius: 10px;
     width: 450px;
     margin-left: 75px;
