@@ -374,6 +374,17 @@
     margin-top: 15px;
   }
 
+   /* opmaak van het plaatje op de besturingssysteem-pagina */
+.img-magnetische-opslag{
+  /*het geven van ronde randen aan plaatje*/
+  border-radius: 10px;
+ 
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
   /* opmaak van de externe linke op de pagina van het geheugen*/
   .text-geheugen a{
     color: fuchsia;
