@@ -158,6 +158,7 @@
 
 /* opmaak van de ondertitels van de besturingssysteem-pagina */
   .text-besturingssysteem h2{
+    position: absolute;
     margin-top: 50px;
     max-width: 500px;
     font-family: Montserrat;
@@ -169,6 +170,7 @@
 
   /* opmaak van de normale tekst van de besturingssysteem-pagina */
   .text-besturingssysteem p{
+    position: absolute;
     margin-top: 15px;
     max-width: 500px;
     font-family: Montserrat;
