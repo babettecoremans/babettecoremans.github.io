@@ -64,18 +64,21 @@
     justify-content: space-between;
     /*tekst in het midden van blokken zetten*/
     align-items: center;
+    /* Er zit geen ruimte aan de zijkant van de tekst. Er zit 5% ruimte aan de bovenkant.*/
     padding: 0 5%;
-  
+    /* menu-bar word gepositioneerd ten opzichte van zijn normale positie.*/
     position: relative;
   }
   
   .menu-bar ul {
+    /* Er worden geen markeringen ingestelt voor de elementen.*/
     list-style: none;
     display: flex;
   }
   
   .menu-bar ul li {
     /* width: 120px; */
+    /*aan de zijkant zitten 10px ruimte en aan de bovenkant 30px*/
     padding: 10px 30px;
     /* text-align: center; */
   
@@ -83,21 +86,27 @@
   }
   
   .menu-bar ul li a {
+    /*tekst krijgt de groote van 15 px*/
     font-size: 15px;
+    /*tekst kleur wordt wit*/
     color: var(--color-white);
     text-decoration: none;
-  
+    /*het duurt 0.3 seconde om de tekst in de menu-bar van kleur te laten veranderen wanneer er op geschenen wordt.*/
     transition: all 0.3s;
   }
   
   .menu-bar ul li a:hover {
+    /*wanneer er op de tekst in de menu-bar wordt geschenen wordt de tekst blauw*/
     color: var(--color-primary);
   }
   
   /* opmaak van het icoontje van een pijltje in de menubar. */
   .fas {
+    /* logo bevindt zich rechts in de menu-bar*/
     float: right;
+    /*het logo bevindt zich op 10px vanaf de linkerkant van het scherm.*/
     margin-left: 10px;
+    /*er zitten 3px ruimte aan de bovenkant van het logo*/
     padding-top: 3px;
   }
   
@@ -107,8 +116,11 @@
   }
   
   .menu-bar ul li:hover .dropdown-menu {
+    /*de tekst in het dropdown-menu bevindt zich in blokjes*/
     display: block;
+    /* tekst wordt gepositioneerd ten opzichte van de dichtstbijzijnde gepositioneerde voorouder*/
     position: absolute;
+    /*er is geen ruimte aan de linkerkant van de tekst*/
     left: 0;
     top: 100%;
     background-color: var(--color-black);
@@ -138,30 +150,40 @@
 
   /* opmaak tekst op de home-pagina*/
   .text-home {
+    /*de breedte van de tekst is altijd 90% van de schermgrootte.*/
     width: 90%;
     position: absolute;
+    /*de tekst wordt gepositioneerd in het midden van de pagina*/
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
   }
 
+  /* groote van de header op de homepagina wordt gesteld op 62 px*/
   .text-home h1{
     font-size: 62px;
   }
 
   .text-home p{
+    /*de normale tekst op de homepagina bevindt zich 10px onder de header, de margin aan de linker en rechterzijde is 0 px en aan de onderkant bevinden zich 40px aan ruimte.*/
     margin: 10px 0 40px;
     font-size: 20px;
+    /*kleur van de tekst is floralwhite*/
     color: floralwhite;
   }
 
   /* Maken van wit tekstvak op besturingssysteem-pagina. */
   .text-besturingssysteem {
+    /*achtergrond tekst is wit*/
     background: white;
+    /*breedte tekstvak is 50% van het scherm*/
     width: 50%;
+    /* aan de bovenkant, onderkant en zijkanten van de tekst zit er een ruimte van 40px*/
     padding: 40px;
+    /* aan de bovenkant bevind zich de tekst 100px naar onder. Aan de bovenkant bevindt zich de tekst 100px naar boven. De auto-value zorgt ervoor dat de tekst de opgegeven breedte in beslag neemt en de resterende ruimte gelijkelijk verdeeld wordt tussen de linker- en rechtermarge.*/
     margin: 100px auto;
+    /* het tekstvak achter de tekst heeft ronde randen*/
     border-radius: 10px;
   }
 
@@ -170,6 +192,7 @@
     color: black;
     font-family: Montserrat;
     font-size: 30px;
+    /*ruimte onder header is 20px groot*/
     margin-bottom: 20px;
   }
 
@@ -178,6 +201,7 @@
     font-family: Montserrat;
     font-size: 20px;
     margin-bottom: 20px;
+    /*de tweede header bevindt zich 15 px onder de voorafgaande regel.*/
     margin-top: 15px;
   }
 
@@ -320,6 +344,7 @@
     color: fuchsia;
   }
 
+  /*link krijgt de kleur darkcyan wanneer er op geschenen wordt*/
   .text-processor-en-kloksnelheid  a:hover{
     color: darkcyan;
   }
@@ -527,6 +552,7 @@
     margin-top: 40px;
     padding-top: 25px;
     text-align: center;
+    /*Het element wordt onder zowel linker als rechter zwevende elementen geduwd*/
     clear: both;
     background-color: var(--color-black);
   }
@@ -557,18 +583,24 @@
    display: inline-block;
    text-decoration: none;
    color: floralwhite;
+   /*de rand van de knop is 1px breed, solid en heeft de kleur floralwhite*/
    border: 1px solid floralwhite;
    padding: 12px 34px;
    font-size: 13px;
+   /* knop heeft geen achtergrond maar is doorzichtig*/
    background: transparent;
    position: relative;
+   /*cursor verandert in een handje als je op de knop schijnt*/
    cursor: pointer;
   }
   
   /*opmaak knop 'lees meer' wanneer de cursor op de knop staat*/
   .button:hover{
+    /*rand verandert van wit naar fuchsia*/
     border: 1px solid fuchsia;
+    /*achtergrond verandert van transparant naar fuchsia*/
     background: fuchsia;
+    /* de kleurovergang vind plaats binnen 1 seconde*/
     transition: 1s;
   }
 
