@@ -4,7 +4,7 @@
   src: url(Montserrat-VariableFont_wght.ttf);
 }
 
-/* namen geven aan kleuren die later in het css-document gebruikt kunnen worden */
+/* namen geven aan standaard kleuren die later in het css-document meerdere keren gebruikt worden */
 :root {
     --color-primary: #0073ff;
     --color-white: #e9e9e9;
@@ -20,14 +20,22 @@
   }
   /* Het lettertype 'Montserrat' instellen als het standaardlettertype voor alle pagina's en alle pagina's dezelfde achtergrondafbeelding geven. De herlderheid van de achtergrondafbeelding wordt hierbij aangepast zodat de tekst leesbaar blijft. */
   body {
+    /*Het standaardlettertype op alle pagina's is Montserrat*/
     font-family: Montserrat;
     background-image: url(bg-image.webp);
+    /*kleur op de achtergrondafbeelding zodat die niet te fel is*/
     background-color: #22487a5b;
+    /*de achtergrondafbeelding samenvoegen met de achtergrondkleur*/
     background-blend-mode: lighten;
+    /*standaard kleur van tekst op alle pagina's*/
     color: white;
+    /*ervoor zorgen de de achtergrondafbeelidng de gehele pagina bekleedt.*/ 
     background-size: cover;
+    /*zorgen dat de achtergrondafbeelding zich niet herhaald op de achtergrond*/
     background-repeat: no-repeat;
+    /*achtergrondafbeelding in het midden van de pagina centreren*/
     position: center;
+    /*zorgen dat de achtergrondafbeelding niet meebeweegt wanneer er naar benden wordt gescrold op de pagina*/
     background-attachment: fixed;
   } 
 
@@ -44,11 +52,17 @@
   
 /* Maken van menu-bar */
   .menu-bar {
+    /* de menu-bar krijgt de kleur zwart*/
     background-color: var(--color-black);
+    /*de dikte van de menu-bar wordt ingesteld op 80 px*/
     height: 80px;
+    /*De breedte van de menu-bar is 100% waardoor die altijd de breedte van het scherm aanneemt*/
     width: 100%;
+    /*onderliggende elementen worden automatisch uitgelijnd zoals kolommen of rijen met automatische breedte en automatische hoogte.*/
     display: flex;
+    /*geeft de flexitems weer met spatie tussen de regels*/
     justify-content: space-between;
+    /*tekst in het midden van blokken zetten*/
     align-items: center;
     padding: 0 5%;
   
